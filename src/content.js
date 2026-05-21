@@ -37,11 +37,11 @@ export const site = {
 
 export const hero = {
   badge: "Gestão e Direito de Trânsito",
-  title: "GDT | Gestão e Direito de Trânsito Marcos Pereira",
+  title: "GDT | Gestão e Direito de Trânsito | Marcos Pereira",
   subtitle:
-    "Conteúdo técnico, materiais, artigos e conteúdos voltados para reflexões sobre a matéria de trânsito, Direito de Trânsito, gestão pública, mobilidade, segurança viária, formação, cidadania e educação.",
+    "Conteúdo técnico, materiais, artigos e reflexões sobre trânsito, Direito de Trânsito, gestão pública, mobilidade, segurança viária, formação, cidadania, educação e uso aplicado de tecnologias.",
   note:
-    "Um espaço de organização, formação e difusão de conhecimento especializado, com linguagem técnica, institucional e acessível para profissionais, estudantes e interessados no trânsito.",
+    "Um espaço de organização, produção e difusão de conhecimento especializado, com linguagem técnica, institucional e acessível para profissionais, estudantes e interessados na área de trânsito.",
 };
 
 export const quickLinks = [
@@ -55,7 +55,7 @@ export const constructionNotice = {
   enabled: true,
   title: "Espaço em construção",
   text:
-    "Esta seção está em fase de organização e incorporação contínua de conteúdo. Novos materiais, artigos e publicações serão disponibilizados gradualmente.",
+    "Esta página está em fase de organização e incorporação contínua de conteúdo. Novos materiais, artigos, publicações e referências serão disponibilizados gradualmente.",
 };
 
 export const resources = [
@@ -98,54 +98,60 @@ export const themes = [
     icon: Car,
     title: "Matéria de trânsito",
     text:
-      "Reflexões sobre trânsito como fenômeno humano, social, jurídico, administrativo e educacional.",
+      "Estudo do trânsito como fenômeno humano, social, jurídico, administrativo e educacional.",
   },
   {
     icon: Scale,
     title: "Direito de Trânsito",
     text:
-      "Estudos e reflexões sobre aplicação normativa, processos administrativos de trânsito, atuação colegiada, competências institucionais e finalidade social da norma.",
+      "Reflexões sobre aplicação normativa, processos administrativos de trânsito, competências institucionais, atuação colegiada e finalidade social da norma.",
   },
   {
     icon: ShieldCheck,
     title: "Segurança viária",
     text:
-      "Conteúdos orientados à preservação da vida, redução de riscos e responsabilidade coletiva na mobilidade.",
+      "Conteúdos voltados à preservação da vida, redução de riscos, prevenção de sinistros e responsabilidade coletiva na mobilidade.",
   },
   {
     icon: Users,
     title: "Gestão pública e cidadania",
     text:
-      "Organização institucional, políticas públicas, participação social e qualificação da atuação estatal.",
+      "Temas relacionados à organização institucional, políticas públicas, participação social, governança e qualificação da atuação estatal.",
   },
   {
     icon: GraduationCap,
     title: "Formação e educação",
     text:
-      "Materiais voltados à docência, capacitações, educação para o trânsito e formação de profissionais.",
+      "Conteúdos voltados à docência, capacitações, educação para o trânsito, formação de profissionais e construção de cultura cidadã.",
   },
   {
     icon: Brain,
     title: "Comportamento e mobilidade",
     text:
-      "Psicologia do Trânsito, percepção de risco, conduta humana e cultura de segurança viária.",
+      "Abordagens sobre Psicologia do Trânsito, percepção de risco, conduta humana, tomada de decisão e cultura de segurança viária.",
   },
 ];
 
 export const about = {
   eyebrow: "Quem sou",
-  title: "Servidor público, educador e especialista em Gestão e Direito de Trânsito e em Inteligência Artificial na Prática.",
+  title:
+    "Servidor público, educador e especialista em Gestão e Direito de Trânsito e em Inteligência Artificial na Prática.",
   text:
-    "Bacharel em Direito, especialista em Gestão e Direito de Trânsito e em Inteligência Artificial na Prática. Servidor público estadual efetivo do DETRAN-PE, atualmente exerce a função de Coordenador Técnico do Conselho Estadual de Trânsito de Pernambuco - CETRAN/PE. Atua com visão técnica, jurídica, educacional e institucional, reunindo experiência em colegiados, assessoramento, supervisão, docência, capacitações, produção de materiais e participação em comissões e grupos de trabalho voltados ao trânsito, à segurança viária, à gestão pública, à educação e ao uso aplicado de tecnologias.",
-  tags: ["Gestão e Direito de Trânsito", "Inteligência Artificial aplicada", "Gestão pública", "Educação e segurança viária"],
+    "Bacharel em Direito, especialista em Gestão e Direito de Trânsito e em Inteligência Artificial na Prática. Servidor público estadual efetivo do DETRAN-PE desde 2008, atualmente exerce a função de Coordenador Técnico do Conselho Estadual de Trânsito de Pernambuco - CETRAN/PE. Atua com visão técnica, jurídica, educacional e institucional, reunindo experiência em colegiados, assessoramento, supervisão, docência, capacitações, produção de materiais e participação em comissões e grupos de trabalho voltados ao trânsito, à segurança viária, à gestão pública, à educação e ao uso aplicado de tecnologias.",
+  tags: [
+    "Gestão e Direito de Trânsito",
+    "Inteligência Artificial aplicada",
+    "Gestão pública",
+    "Educação e segurança viária",
+  ],
 };
 
 export const audience = [
   "Servidores, gestores e profissionais da área de trânsito",
   "Educadores, instrutores e profissionais da formação de condutores",
   "Estudantes e profissionais interessados em Direito de Trânsito",
-  "Pesquisadores, docentes e interessados em segurança viária",
-  "Pessoas que buscam conteúdo técnico com responsabilidade pública",
+  "Pesquisadores, docentes e interessados em mobilidade e segurança viária",
+  "Pessoas que buscam conteúdo técnico, educativo e institucional sobre trânsito",
 ];
 
 export const invitations = [
@@ -153,19 +159,19 @@ export const invitations = [
     icon: CalendarDays,
     title: "Convidar para aula ou palestra",
     text:
-      "Temas: matéria de trânsito, Direito de Trânsito, gestão pública, educação, segurança viária e mobilidade.",
+      "Temas relacionados à matéria de trânsito, Direito de Trânsito, gestão pública, educação, segurança viária, mobilidade e uso aplicado de tecnologias.",
   },
   {
     icon: FileText,
     title: "Solicitar material ou publicação",
     text:
-      "Canal para organização de conteúdos, textos, materiais de apoio e referências técnicas.",
+      "Canal para acesso a conteúdos, textos, materiais de apoio, referências técnicas e publicações formativas.",
   },
   {
     icon: Mail,
-    title: "Propor parceria ou contato",
+    title: "Parceria ou contato",
     text:
-      "Espaço para convites, cursos, eventos, projetos e iniciativas compatíveis com os valores do GDT.",
+      "Espaço para convites, eventos, projetos, cursos e iniciativas compatíveis com os valores técnicos, educacionais e institucionais.",
   },
 ];
 
@@ -174,21 +180,21 @@ export const complementary = [
     icon: BookOpen,
     title: "Fé, valores e espiritualidade",
     text:
-      "Reflexões cristãs, mensagens de vida e conteúdos que dialogam com ética, propósito e responsabilidade humana.",
+      "Reflexões cristãs, mensagens de vida e conteúdos relacionados à ética, ao propósito, à responsabilidade humana e à cidadania.",
   },
   {
     icon: Brain,
     title: "Inteligência artificial aplicada",
     text:
-      "Uso responsável de IA para educação, produção de conhecimento, organização de materiais e inovação na gestão pública.",
+      "Uso responsável de IA na educação, produção de conhecimento, organização de materiais, comunicação e inovação na gestão pública.",
   },
   {
     icon: Megaphone,
     title: "Parcerias e indicações",
     text:
-      "Espaço futuro para cursos, produtos e oportunidades compatíveis com os valores do projeto.",
+      "Espaço futuro para cursos, produtos, indicações e oportunidades compatíveis com os valores e a finalidade educativa do projeto.",
   },
 ];
 
 export const transparencyNote =
-  "Este espaço reúne conteúdos pessoais, acadêmicos e profissionais. As opiniões e materiais aqui publicados são de responsabilidade autoral, salvo quando houver indicação expressa de vínculo institucional ou fonte oficial.";
+  "Este espaço reúne conteúdos pessoais, acadêmicos, técnicos e profissionais. As opiniões e materiais aqui publicados são de responsabilidade autoral, salvo quando houver indicação expressa de vínculo institucional, fonte oficial ou autoria de terceiros.";
