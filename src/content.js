@@ -63,33 +63,33 @@ export const resources = [
     tag: "Materiais técnicos",
     title: "Guias, modelos e documentos de apoio",
     text:
-      "Espaço para organizar arquivos, roteiros, apresentações, modelos e conteúdos de consulta sobre trânsito e gestão pública.",
+      "Reúne arquivos, roteiros, apresentações, modelos e materiais de consulta sobre trânsito, Direito de Trânsito e gestão pública.",
     icon: Download,
-    href: "",
+    href: "https://drive.google.com/drive/folders/11nFhRvHF2xC7Vgmq8cPw0XHvMseYtnPK?usp=drive_link",
   },
   {
     tag: "Artigos",
-    title: "Textos, análises e publicações autorais",
+    title: "Textos, análises e publicações",
     text:
-      "Produções sobre Direito de Trânsito, educação, segurança viária, mobilidade, cidadania e atuação institucional.",
+      "Textos, análises e publicações sobre Direito de Trânsito, educação, segurança viária, mobilidade, cidadania e atuação institucional.",
     icon: FileText,
-    href: "",
+    href: "https://drive.google.com/drive/folders/1Rcp2yxgPISjkX755IMQsiNiF7qPJnO_E?usp=drive_link",
   },
   {
     tag: "Formação",
     title: "Aulas, palestras e capacitações",
     text:
-      "Canal de referência para temas de formação técnica, eventos acadêmicos, cursos e atividades educacionais.",
+      "Materiais e informações relacionados a aulas, palestras, capacitações, eventos acadêmicos e atividades de formação técnica.",
     icon: GraduationCap,
-    href: "",
+    href: "https://drive.google.com/drive/folders/14QDxBCdU-_1XioJWkbhpyn565uIYXllB?usp=drive_link",
   },
   {
     tag: "Reflexões",
     title: "Trânsito, ética pública e vida em sociedade",
     text:
-      "Conteúdos reflexivos que aproximam técnica, comportamento humano, responsabilidade pública e preservação da vida.",
+      "Reflexões sobre trânsito, ética pública, comportamento humano, responsabilidade coletiva e preservação da vida.",
     icon: BookOpen,
-    href: "",
+    href: "https://drive.google.com/drive/folders/1eWZ8HuVLuIBc40wcU4f5pZkeRhSQ9ip1?usp=drive_link",
   },
 ];
 
