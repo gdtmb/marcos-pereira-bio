@@ -134,10 +134,10 @@ export const themes = [
 
 export const about = {
   eyebrow: "Quem sou",
-  title: "Servidor público, educador e articulador institucional.",
+  title: "Servidor público, educador e especialista em Gestão e Direito de Trânsito e em Inteligência Artificial na Prática.",
   text:
-    "Bacharel em Direito, especialista em Gestão e Direito de Trânsito, servidor público estadual efetivo do DETRAN-PE. Atua com visão técnica, jurídica, educacional e humana, reunindo experiência em colegiados, docência, capacitações, produção de materiais e participação em espaços de formulação e debate sobre segurança viária.",
-  tags: ["Direito de Trânsito", "Gestão pública", "Educação", "Segurança viária"],
+    "Bacharel em Direito, especialista em Gestão e Direito de Trânsito e em Inteligência Artificial na Prática. Servidor público estadual efetivo do DETRAN-PE, atualmente exerce a função de Coordenador Técnico do Conselho Estadual de Trânsito de Pernambuco - CETRAN/PE. Atua com visão técnica, jurídica, educacional e institucional, reunindo experiência em colegiados, assessoramento, supervisão, docência, capacitações, produção de materiais e participação em comissões e grupos de trabalho voltados ao trânsito, à segurança viária, à gestão pública, à educação e ao uso aplicado de tecnologias.",
+  tags: ["Gestão e Direito de Trânsito", "Inteligência Artificial aplicada", "Gestão pública", "Educação e segurança viária"],
 };
 
 export const audience = [
