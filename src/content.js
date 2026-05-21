@@ -37,7 +37,7 @@ export const site = {
 
 export const hero = {
   badge: "Gestão e Direito de Trânsito",
-  title: "GDT | Gestão e Direito de Trânsito | Marcos Pereira",
+  title: "GDT | Gestão e Direito de Trânsito Marcos Pereira",
   subtitle:
     "Conteúdo técnico, materiais, artigos e conteúdos voltados para reflexões sobre a matéria de trânsito, Direito de Trânsito, gestão pública, mobilidade, segurança viária, formação, cidadania e educação.",
   note:
