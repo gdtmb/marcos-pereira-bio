@@ -153,8 +153,8 @@ export default function App() {
 
       <section id="eixos" className="bg-white py-20">
         <div className="mx-auto max-w-6xl px-5">
-          <SectionTitle eyebrow="Eixos editoriais" title="Os temas que sustentam a identidade GDT">
-            A identidade central está em Gestão e Direito de Trânsito, com diálogo direto com segurança viária, educação, cidadania, mobilidade, gestão pública e comportamento humano.
+          <SectionTitle eyebrow="Eixos editoriais" title="Os temas da identidade GDT">
+                Conteúdos técnicos e formativos sobre trânsito, Direito de Trânsito, gestão pública e segurança viária, articulando norma, educação, mobilidade, comportamento humano, cidadania, responsabilidade pública e tecnologias aplicadas, incluindo inteligência artificial.
           </SectionTitle>
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {themes.map((item) => {
