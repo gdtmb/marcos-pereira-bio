@@ -59,14 +59,14 @@ export const constructionNotice = {
 };
 
 export const resources = [
-  {
-    tag: "Materiais técnicos",
-    title: "Guias, modelos e documentos de apoio",
-    text:
-      "Reúne arquivos, roteiros, apresentações, modelos e materiais de consulta sobre trânsito, Direito de Trânsito e gestão pública.",
-    icon: Download,
-    href: "https://drive.google.com/drive/folders/11nFhRvHF2xC7Vgmq8cPw0XHvMseYtnPK?usp=drive_link",
-  },
+ {
+  tag: "Materiais técnicos",
+  title: "Guias, estudos, dados e documentos de apoio",
+  text:
+    "Reúne arquivos, roteiros, apresentações, estudos, indicadores, referências oficiais e materiais de consulta sobre trânsito, Direito de Trânsito e gestão pública.",
+  icon: Download,
+  href: "https://drive.google.com/drive/folders/11nFhRvHF2xC7Vgmq8cPw0XHvMseYtnPK?usp=drive_link",
+},
   {
     tag: "Artigos",
     title: "Textos, análises e publicações",
