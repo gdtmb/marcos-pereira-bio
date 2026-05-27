@@ -44,11 +44,31 @@ export const hero = {
     "Um espaço de organização, produção e difusão de conhecimento especializado, com linguagem técnica, institucional e acessível para profissionais, estudantes e interessados na área de trânsito.",
 };
 
-export const quickLinks = [
-  { label: "Materiais técnicos", href: "#materiais", icon: Download },
-  { label: "Artigos e publicações", href: "#materiais", icon: FileText },
-  { label: "Aulas e formações", href: "#convites", icon: GraduationCap },
-  { label: "Contato e convites", href: "#contato", icon: Mail },
+export const featuredLinks = [
+  {
+    title: "Atlas da Violência 2026",
+    subtitle: "Referência oficial: Ipea e FBSP",
+    href: "https://drive.google.com/file/d/1gr0Lp_6sfhrjRww7d9Mf5Yrmnb7NrH3I/view?usp=sharing",
+    icon: FileText,
+  },
+  {
+    title: "Curso IA Para Todos",
+    subtitle: "Gratuito, on-line e com certificado",
+    href: "https://www.secti.pe.gov.br/ia-para-todos",
+    icon: Brain,
+  },
+  {
+    title: "Materiais técnicos GDT",
+    subtitle: "Estudos, dados e documentos de apoio",
+    href: "https://drive.google.com/drive/folders/11nFhRvHF2xC7Vgmq8cPw0XHvMseYtnPK?usp=drive_link",
+    icon: Download,
+  },
+  {
+    title: "Artigos e publicações",
+    subtitle: "Textos, análises e referências",
+    href: "https://drive.google.com/drive/folders/1Rcp2yxgPISjkX755IMQsiNiF7qPJnO_E?usp=drive_link",
+    icon: FileText,
+  },
 ];
 
 export const constructionNotice = {
