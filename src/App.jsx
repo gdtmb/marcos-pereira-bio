@@ -6,10 +6,10 @@ import {
   audience,
   complementary,
   constructionNotice,
+  featuredLinks,
   hero,
   invitations,
   links,
-  quickLinks,
   resources,
   site,
   themes,
@@ -113,17 +113,39 @@ export default function App() {
           </motion.div>
           <motion.aside initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.55, delay: 0.1 }} className="relative rounded-[2rem] border border-slate-200 bg-slate-950 p-6 text-white shadow-2xl md:mr-4">
             <div className="absolute -right-3 -top-3 h-20 w-20 rounded-full border-[14px] border-amber-500/80" />
-            <div className="relative grid gap-3">
-              {quickLinks.map((item) => {
-                const Icon = item.icon;
-                return (
-                  <a key={item.label} href={item.href} className="flex items-center justify-between rounded-2xl bg-white/10 p-4 transition hover:bg-white/15">
-                    <span className="flex items-center gap-3 text-sm font-bold"><Icon className="h-5 w-5 text-amber-300" />{item.label}</span>
-                    <ArrowRight className="h-4 w-4 text-amber-300" />
-                  </a>
-                );
-              })}
-            </div>
+           <div className="relative">
+  <p className="mb-4 text-sm font-black uppercase tracking-[0.22em] text-amber-300">
+    Disponível para acesso
+  </p>
+
+  <div className="grid gap-3">
+    {featuredLinks.map((item) => {
+      const Icon = item.icon;
+      return (
+        <a
+          key={item.title}
+          href={item.href}
+          target={item.href.startsWith("#") ? "_self" : "_blank"}
+          rel={item.href.startsWith("#") ? undefined : "noreferrer"}
+          className="flex items-center justify-between gap-4 rounded-2xl bg-white/10 p-4 transition hover:bg-white/15"
+        >
+          <span className="flex items-start gap-3">
+            <Icon className="mt-1 h-5 w-5 shrink-0 text-amber-300" />
+            <span>
+              <span className="block text-sm font-black text-white">
+                {item.title}
+              </span>
+              <span className="mt-1 block text-xs leading-5 text-slate-300">
+                {item.subtitle}
+              </span>
+            </span>
+          </span>
+          <ArrowRight className="h-4 w-4 shrink-0 text-amber-300" />
+        </a>
+      );
+    })}
+  </div>
+</div>
           </motion.aside>
         </div>
       </section>
